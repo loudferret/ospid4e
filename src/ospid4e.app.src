@@ -1,0 +1,14 @@
+{application, ospid4e,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { ospid4e_app, []}},
+  {applications, [kernel, stdlib ]},
+  {env, [{pidfile, "/tmp/ospid4e_application.pid"}]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
+
